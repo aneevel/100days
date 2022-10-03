@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Challenge Form</title>
+  </head>
+  <body>
+    <h1>Contact Us</h1>
+    <form action="/" method="GET">
+      <section>
+        <h2>How can we help you?</h2>
+        <ul>
+          <li>
+            <label for="user-name">Your Name</label>
+            <input type="text" name="user-name" id="user-name" />
+          </li>
+          <li>
+            <label for="user-email">Your E-Mail Address</label>
+            <input type="email" name="user-email" id="user-email" />
+          </li>
+          <li>
+            <label for="user-phone">Your Phone Number</label>
+            <input type="number" name="user-number" id="user-number" />
+          </li>
+        </ul>
+      </section>
+      <section>
+        <ul>
+          <li>
+            <label for="message">Your Message</label>
+            <textarea
+              name="message"
+              id="message"
+              cols="30"
+              rows="10"
+            ></textarea>
+          </li>
+          <li>
+            <label for="find-us">How did you find us?</label>
+            <select name="find-us" id="find-us">
+              <option value="web">Web Search</option>
+              <option value="wom">Word of Mouth</option>
+              <option value="other">Other</option>
+            </select>
+          </li>
+        </ul>
+      </section>
+      <section id="reply-details">
+        <h2>How should we reply?</h2>
+        <ul>
+          <li class="form-control-inline">
+            <input type="radio" name="reply" id="reply-call" value="call" />
+            <label for="reply-call">Call me</label>
+          </li>
+          <li class="form-control-inline">
+            <input type="radio" name="reply" id="reply-email" value="email" />
+            <label for="reply-email">Send me an email</label>
+          </li>
+          <li class="form-control-inline">
+            <input type="radio" name="reply" id="reply-dont" value="dont" />
+            <label for="reply-dont">Don't reply</label>
+          </li>
+        </ul>
+      </section>
+      <section class="form-control-inline">
+        <input type="checkbox" name="terms" id="terms" />
+        <label for="terms">Accept Terms</label>
+      </section>
+      <section id="form-controls">
+        <button type="reset">Clear</button>
+        <button type="submit">Submit</button>
+      </section>
+    </form>
+  </body>
+</html>

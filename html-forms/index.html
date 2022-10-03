@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Forms</title>
+  </head>
+  <body>
+    <h1>Demo Form</h1>
+    <form action="/" method="GET">
+      <section>
+        <h2>Your personal details</h2>
+        <ul>
+          <li>
+            <label for="user-name">Name</label>
+            <input type="text" name="user-name" id="user-name" required placeholder="John Doe"/>
+          </li>
+
+          <li>
+            <label for="user-email">Email Address</label>
+            <input type="email" name="user-email" id="user-email" required/>
+          </li>
+          <li>
+            <label for="user-age">Age</label>
+            <input type="number" step="1" name="user-age" id="user-age" required min="18" max="50"/>
+          </li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>More details</h2>
+        <ul>
+          <li>
+            <label for="user-password">Password</label>
+            <input type="password" name="user-password" id="user-password" required minlength="7"/>
+          </li>
+          <li>
+            <label for="user-birthdate">Birthdate</label>
+            <input type="date" name="user-birthdate" id="user-birthdate" required min='1921-01-01' max='2021-12-01'/>
+          </li>
+          <li>
+            <label for="favorite-color">Your favorite color?</label>
+            <select name="favorite-color" id="favorite-color">
+              <option value="red">Red</option>
+              <option value="blue">Blue</option>
+              <option value="green">Green</option>
+            </select>
+          </li>
+        </ul>
+      </section>
+
+      <section>
+        <label for="usermessage">Message</label>
+        <textarea
+          name="user-message"
+          id="usermessage"
+          cols="30"
+          rows="10"
+        ></textarea>
+      </section>
+
+      <section>
+        <h2>How should we verify your account?</h2>
+        <ul>
+          <li class="form-control-inline">
+            <input type="radio" name="verify" id="verify-text" value="text" />
+            <label for="verify-text">Via text message (SMS)</label>
+          </li>
+          <li class="form-control-inline">
+            <input type="radio" name="verify" id="verify-phone" value="phone" />
+            <label for="verify-phone">Via a phone call</label>
+          </li>
+          <li class="form-control-inline">
+            <input type="radio" name="verify" id="verify-email" value="email" />
+            <label for="verify-email">Via an email</label>
+          </li>
+        </ul>
+      </section>
+      <section>
+        <h2>Contact Details</h2>
+        <ul>
+          <li class="form-control-inline">
+            <input
+              type="checkbox"
+              name="contact"
+              id="contact-phone"
+              value="phone"
+            />
+            <label for="contact-phone">Contact me via phone</label>
+          </li>
+          <li class="form-control-inline">
+            <input
+              type="checkbox"
+              name="contact"
+              id="contact-email"
+              value="email"
+            />
+            <label for="contact-email">Contact me via email</label>
+          </li>
+        </ul>
+      </section>
+
+      <section>
+        <div class="form-control-inline">
+          <input type="checkbox" name="terms" id="agree-terms" />
+          <label for="agree-terms">Agree to terms?</label>
+        </div>
+      </section>
+
+      <section>
+        <button type="reset">Clear Form</button>
+        <button type="submit">Submit</button>
+      </section>
+      
+    </form>
+  </body>
+</html>

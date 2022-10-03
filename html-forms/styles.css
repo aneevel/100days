@@ -1,0 +1,105 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+form {
+    width: 40rem;
+    margin: 2rem auto;
+    background-color: rgb(255, 255, 255);
+    padding: 1rem;
+    border-radius: 6px;
+    box-shadow: 3px 3px 5px rgb(206, 214, 214)
+}
+
+label {
+    margin-bottom: 0.5rem;
+    display: block;
+}
+
+input,
+textarea,
+select {
+    width: 100%;
+    display: block;
+    margin-bottom: 1rem;
+    box-sizing: border-box;
+    font: inherit;
+    border: 1px solid rgb(184, 184, 184);
+    padding: 0.25rem;
+    color: rgb(61, 58, 58);
+}
+
+textarea {
+    resize: none;
+}
+
+input:focus,
+textarea:focus {
+    background-color: rgb(219, 190, 253);
+    color: rgb(32, 5, 63);
+    border-color: rgb(32, 5, 63);
+}
+
+button {
+    display: block;
+    font: inherit;
+    background-color: rgb(32, 5, 63);
+    color: white;
+    border: 1px solid rgb(32, 5, 63);
+    padding: 0.5rem 1.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(52, 14, 95);
+    border-color: rgb(52, 14, 95);
+}
+
+.form-control-inline {
+    display: flex;
+}
+
+.form-control-inline input {
+    width: auto;
+    margin-right: 0.5rem;
+}
+
+#reply-details {
+    margin-bottom: 1rem;
+}
+
+#form-controls {
+    display: flex;
+    margin: 1rem;
+    margin-right: 0rem;
+    justify-content: flex-end;
+}
+
+#form-controls button {
+    margin: 0.1rem;
+    width: 7 rem;
+    border: 0.1rem solid rgb(61, 58, 58);
+    text-align: center;
+}
+
+
+#form-controls button[type="submit"] {
+    background-color: rgb(39, 39, 59);
+    color: white;
+}
+
+#form-controls button[type="reset"] {
+    background-color: rgb(230, 227, 227);
+    color:rgb(79, 75, 80)
+}

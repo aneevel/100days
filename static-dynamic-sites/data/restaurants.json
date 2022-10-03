@@ -1,0 +1,42 @@
+[
+  {
+    "name": "MEd Cafe",
+    "address": "IDK state street",
+    "cuisine": "Mediterranean",
+    "website": "https://medcafe.com",
+    "description": "It's da bomb",
+    "id": "4bb9cc7d-ebf0-4756-a28d-5bb1654ae17f"
+  },
+  {
+    "name": "Tony's Pizza",
+    "address": "420 Fond du Lac Street",
+    "cuisine": "Italian",
+    "website": "https://www.tonyspizza.com",
+    "description": "So many reasons",
+    "id": "cee648cd-8e5a-4c02-9484-60f2837250e1"
+  },
+  {
+    "name": "Test",
+    "address": "123Test ",
+    "cuisine": "Delicious",
+    "website": "https://test.com",
+    "description": "It's testing",
+    "id": "2bac0b53-2376-4677-a9a7-0c788a0cdbf1"
+  },
+  {
+    "name": "Asshole Palace",
+    "address": "123 Suck My Asshole Lane",
+    "cuisine": "Ass",
+    "website": "https://fuckmyass.com",
+    "description": "Great ass here",
+    "id": "1df44672-f691-4989-8eb9-5e8af34fa030"
+  },
+  {
+    "name": "Ballsack Bayou",
+    "address": "6969 Taint Way",
+    "cuisine": "Hairy",
+    "website": "https://ballz.com",
+    "description": "Eh?",
+    "id": "f8e10b24-bf61-4728-9464-45e86fc76d88"
+  }
+]
